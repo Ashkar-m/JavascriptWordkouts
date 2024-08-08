@@ -15,7 +15,7 @@ export default function Parent() {
     <div>
 
         <p>{value}</p>
-        <Child toParent={fromParent}/>
+        <Child toParent={fromParent}/> 
       
     </div>
   )
